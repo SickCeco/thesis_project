@@ -52,11 +52,11 @@ class StreamlitInterface:
 
         # Initialize Neo4j connection
         self.neo4j = Neo4jConnector(
-            uri="bolt://localhost:7689",
+            uri="neo4j+s://72f45d03.databases.neo4j.io",
             username="neo4j",
-            password="Graph_DBMS"
+            password="f9bogjM_hyfkYrTUmspKEk6FCX_hoLKtQxPTEOf98TM"
         )
-
+        
         # Initialize managers
         self.user_manager = UserManager(self.neo4j)
        
