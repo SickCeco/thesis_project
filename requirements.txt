@@ -1,3 +1,4 @@
+pydantic
 neo4j
 langchain
 langchain-community
@@ -5,7 +6,6 @@ langchain-openai
 openai
 dotenv
 streamlit
-pydantic
 docx
 py2neo
 openpyxl
