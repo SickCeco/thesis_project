@@ -8,6 +8,15 @@ CALL apoc.export.json.query(
     {}
 )
 
+#estrarre Json e poi fare in modo che matchi: {"graph":[{"m"...... }}}}]}
+CALL apoc.export.json.query(
+    "MATCH (n)-[r]->(m) RETURN collect({n: n, r: r, m: m}) AS graph",
+    null,
+    {stream: true}
+) YIELD data
+RETURN data;
+
+
 
 MATCH (n) RETURN n.embedding lIMIT 5
 
