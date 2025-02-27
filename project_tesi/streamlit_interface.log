@@ -1,0 +1,1512 @@
+2025-02-19 15:12:05,304 - streamlit_interfac - INFO - Initializing StreamlitInterface
+2025-02-19 15:12:16,365 - streamlit_interfac - INFO - Initializing StreamlitInterface
+2025-02-19 15:12:42,338 - streamlit_interfac - INFO - Initializing StreamlitInterface
+2025-02-19 18:14:56,302 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:15:02,310 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:15:48,226 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:15:52,813 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:16:03,881 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:16:03,882 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:16:23,288 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:16:23,288 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:16:24,161 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:16:24,161 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:16:26,119 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:16:26,119 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:16:30,052 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:16:30,053 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:16:42,502 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:16:42,503 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:25:23,269 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:25:27,196 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:25:33,645 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:25:33,646 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:25:33,881 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:25:33,881 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:25:38,954 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:25:38,954 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:25:39,191 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:25:39,191 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:26:22,928 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:26:26,616 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:28:40,512 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:28:43,540 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:30:10,381 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:30:16,456 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:32:23,165 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:32:26,893 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:33:39,509 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:33:43,089 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:33:52,209 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:33:55,941 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:34:04,056 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:34:07,213 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:34:24,676 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:34:27,731 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:34:39,134 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:34:43,199 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:35:24,411 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:35:27,461 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:35:48,783 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:35:51,977 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:36:02,503 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:36:05,910 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:37:01,659 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:37:05,558 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:38:47,627 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:38:51,043 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:39:33,986 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:39:37,009 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:39:52,339 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:39:55,557 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:40:44,123 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:40:47,852 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:40:53,017 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:40:53,017 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:40:53,241 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:40:53,242 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:41:04,515 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:41:04,515 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:41:04,741 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:41:04,741 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:41:07,436 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:41:07,437 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:41:07,700 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:41:07,701 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:41:38,151 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:41:42,132 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:41:44,383 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:41:44,384 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:41:44,595 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:41:44,595 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:41:57,961 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:42:01,171 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:42:03,373 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:42:03,373 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:42:03,578 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:42:03,578 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:42:38,667 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:42:42,267 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:46:13,058 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:46:16,446 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 18:46:54,505 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 18:46:58,279 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:01:24,530 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:01:24,531 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:01:24,834 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:01:24,834 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:01:31,480 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:01:31,482 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:01:31,691 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:01:31,691 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:01:34,868 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:01:34,868 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:01:35,084 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:01:35,084 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:01:41,673 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:01:41,674 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:01:49,282 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:01:49,282 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:02:25,634 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:02:25,635 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:02:26,126 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:02:26,127 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:02:32,261 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:02:32,261 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:02:32,556 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:02:32,556 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:12:51,920 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:12:56,686 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:15:25,513 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:15:25,515 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:15:25,773 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:15:25,773 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:25:09,095 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:25:14,768 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:25:21,608 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:25:21,609 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:25:21,825 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:25:21,825 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:25:29,396 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:25:29,397 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-19 19:25:29,621 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-19 19:25:29,621 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:26:49,594 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:26:57,752 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:27:09,791 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:27:09,792 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:27:10,049 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:27:10,049 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:27:18,572 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:27:18,572 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:27:18,787 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:27:18,787 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:28:38,448 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:28:43,283 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:29:45,247 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:29:48,913 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:31:02,433 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:31:06,131 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:31:16,236 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:31:19,830 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:31:46,107 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:31:46,108 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:31:48,762 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:31:48,762 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:31:48,991 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:31:48,991 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:31:57,840 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:31:57,841 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:32:00,834 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:32:00,834 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:32:01,066 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:32:01,067 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:32:03,008 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:32:03,008 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:32:03,251 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:32:03,251 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:34:51,492 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:34:55,394 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:35:02,018 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:35:02,018 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:35:02,279 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:35:02,279 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:35:06,433 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:35:06,433 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:35:08,017 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:35:08,018 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:39:25,701 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:39:25,702 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:40:05,278 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:40:05,280 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:40:55,078 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:40:55,079 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:45:14,543 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:45:14,543 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:45:15,465 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:45:15,465 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:48:07,542 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:48:08,813 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:48:08,814 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:50:41,740 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:50:41,740 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 09:51:48,977 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-20 09:51:48,978 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-20 10:21:54,276 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 10:21:54,277 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 10:22:09,123 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 10:22:09,124 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 10:22:15,170 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 10:22:15,172 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 10:22:22,061 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 10:22:22,062 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 10:24:05,367 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 10:24:05,368 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 10:44:41,880 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 10:44:41,881 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 10:44:50,620 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 10:44:50,621 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 10:45:00,942 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 10:45:00,943 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 10:45:05,330 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 10:45:05,330 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:16:56,709 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:16:56,711 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:17:04,907 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:17:04,908 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:17:12,736 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:17:12,737 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:17:16,766 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:17:16,766 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:17:32,976 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:17:32,977 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:18:21,081 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:18:21,082 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:18:25,481 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:18:25,482 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:18:31,009 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:18:31,010 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:18:34,697 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:18:34,697 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:18:43,784 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:18:43,785 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:20:00,024 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:20:00,025 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:28:12,254 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:28:12,255 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:28:20,532 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:28:20,532 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:28:20,544 - streamlit_interface - INFO - Initializing chatbot
+2025-02-20 11:28:23,736 - streamlit_interface - INFO - Chatbot initialization completed
+2025-02-20 11:28:27,630 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:28:27,631 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:28:40,383 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:28:41,868 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:28:41,869 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:32:05,142 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:32:05,144 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:32:22,134 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:32:22,135 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:33:07,867 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:33:07,868 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:33:11,652 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:33:11,652 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:35:38,250 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:35:38,251 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:35:45,150 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:35:45,150 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:35:48,775 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:35:48,776 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:36:02,474 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:36:02,476 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:36:08,781 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:36:08,781 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:36:15,821 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:36:15,821 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:36:54,335 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:36:54,337 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:37:00,206 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:37:00,206 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:37:03,746 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:37:03,746 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-21 08:13:24,231 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:13:24,232 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:13:50,964 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:13:50,966 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:14:01,054 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:14:01,056 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:14:01,157 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:14:01,158 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:14:06,948 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:14:06,949 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:14:07,008 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:14:07,009 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:15:09,662 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:15:09,663 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:15:09,741 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:15:09,741 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:15:23,416 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:15:23,418 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:15:23,687 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:15:23,687 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:15:26,551 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:15:26,551 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:15:26,625 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:15:26,626 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:15:50,989 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:15:50,990 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:24:10,940 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:24:10,942 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:28:30,552 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:28:30,555 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:29:07,447 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:29:07,449 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:29:51,886 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:29:51,889 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:33:33,120 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:33:33,123 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:45:08,538 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:45:08,541 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:48:58,525 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:48:58,528 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:49:01,337 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:49:01,338 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:49:01,458 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:49:01,458 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:49:16,804 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:49:16,805 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:49:43,360 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:49:43,362 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:49:49,999 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:49:50,001 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:50:11,554 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:50:11,555 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 08:50:20,641 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 08:50:20,643 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 09:12:02,881 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 09:12:02,883 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 09:12:05,762 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 09:12:05,762 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 09:12:05,838 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 09:12:05,839 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 09:12:15,239 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 09:12:15,240 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 09:12:38,988 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 09:12:38,989 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 09:13:09,512 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 09:13:09,513 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 11:01:07,527 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 11:01:07,535 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-21 11:18:23,346 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-21 11:18:23,349 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:25:40,742 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:25:40,745 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:25:47,145 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:25:47,146 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:25:51,496 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:25:51,496 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:25:51,561 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:25:51,561 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:26:55,235 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:26:55,237 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:26:55,792 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:26:55,792 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:27:01,920 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:27:01,920 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:27:02,052 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:27:02,052 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:27:42,573 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:27:42,575 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:27:44,286 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:27:44,287 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:27:44,288 - __main__ - ERROR - Error displaying meal plan: 'UserManager' object has no attribute 'get_user_meal_plan'
+2025-02-23 09:28:10,455 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:28:10,457 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:28:10,461 - __main__ - ERROR - Error displaying meal plan: 'UserManager' object has no attribute 'get_user_meal_plan'
+2025-02-23 09:28:11,757 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:28:11,757 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:28:13,554 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:28:13,555 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:28:13,556 - __main__ - ERROR - Error displaying meal plan: 'UserManager' object has no attribute 'get_user_meal_plan'
+2025-02-23 09:30:17,854 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:30:17,855 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:30:19,941 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:30:19,942 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:30:20,023 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:30:20,023 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:30:26,103 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:30:26,104 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:30:26,183 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:30:26,183 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:39:44,496 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:39:44,497 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:39:46,465 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:39:46,466 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:42:12,441 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:42:12,442 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:42:13,591 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:42:13,592 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:42:16,771 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:42:16,771 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:45:58,594 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:45:58,595 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:46:33,314 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:46:33,315 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:46:46,968 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:46:46,969 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:47:36,201 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:47:36,202 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:51:11,282 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:51:11,285 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:51:13,568 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:51:13,569 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:51:15,539 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:51:15,539 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:51:16,940 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:51:16,941 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-23 09:52:00,825 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-23 09:52:00,826 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 08:42:59,559 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 08:42:59,560 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 08:43:08,258 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 08:43:08,259 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 08:43:08,394 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 08:43:08,395 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 08:43:12,652 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 08:43:12,653 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 08:48:21,874 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 08:48:21,875 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 08:48:23,041 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 08:48:23,042 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:23:37,439 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:23:37,442 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:23:38,698 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:23:38,698 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:23:48,417 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:23:48,419 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:23:49,515 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:23:49,515 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:23:50,846 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:23:50,846 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:23:52,691 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:23:52,692 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:23:56,954 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:23:56,955 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:23:57,079 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:23:57,080 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:24:00,427 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:24:00,428 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:28:17,906 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:28:17,908 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:28:21,947 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:28:21,947 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:28:22,058 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:28:22,059 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:28:27,099 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:28:27,100 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:28:51,337 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:28:51,338 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:28:52,556 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:28:52,557 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:28:58,036 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:28:58,037 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:35:25,105 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:35:25,106 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:35:26,417 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:35:26,418 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:35:34,272 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:35:34,273 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:35:38,587 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:35:38,588 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:35:38,694 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:35:38,694 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:35:42,101 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:35:42,102 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:35:43,278 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:35:43,278 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:57:26,107 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:57:26,109 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:57:31,737 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:57:31,738 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:57:31,847 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:57:31,847 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:57:35,173 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:57:35,173 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 09:57:36,108 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 09:57:36,108 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:02:35,767 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:02:35,767 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:02:36,950 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:02:36,951 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:02:46,530 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:02:46,532 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:02:53,118 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:02:53,119 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:02:53,229 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:02:53,229 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:02:56,803 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:02:56,803 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:02:57,885 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:02:57,886 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:05:12,167 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:05:12,168 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:10:26,101 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:10:26,102 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:10:33,310 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:10:33,311 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:32:49,740 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:32:49,741 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:32:55,151 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:32:55,151 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:32:55,274 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:32:55,275 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:32:58,592 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:32:58,593 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 10:32:59,554 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 10:32:59,555 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 11:01:48,397 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 11:01:48,398 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 11:01:50,453 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 11:01:50,454 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:07:40,291 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:07:40,292 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:07:44,322 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:07:44,324 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:07:45,527 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:07:45,527 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:07:46,586 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:07:46,587 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:12:12,290 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:12:12,291 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:18:45,651 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:18:45,652 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:18:58,403 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:18:58,404 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:19:44,724 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:19:44,724 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:41:36,534 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:41:36,535 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:41:40,834 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:41:40,835 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:41:40,937 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:41:40,937 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:41:44,742 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:41:44,743 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:41:45,668 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:41:45,669 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:42:06,071 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:42:06,073 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:42:07,698 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:42:07,698 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:42:07,762 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:42:07,763 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:43:43,335 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:43:43,336 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:43:47,100 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:43:47,100 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:43:47,184 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:43:47,185 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:43:50,041 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:43:50,041 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 12:43:50,863 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 12:43:50,864 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:33:34,883 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:33:34,888 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:33:38,316 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:33:38,317 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:33:40,079 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:33:40,080 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:33:41,500 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:33:41,501 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:33:54,877 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:33:54,879 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:33:58,965 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:33:58,965 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:33:59,116 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:33:59,117 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:34:03,476 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:34:03,477 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:34:04,396 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:34:04,397 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:37:40,337 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:37:40,338 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:38:05,045 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:38:05,047 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:38:13,363 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:38:13,364 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:38:13,455 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:38:13,455 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:38:17,864 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:38:17,865 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 19:38:19,119 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 19:38:19,120 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:44:34,104 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:44:34,106 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:44:52,783 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:44:52,785 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:44:57,947 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:44:57,947 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:44:58,036 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:44:58,037 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:45:02,273 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:45:02,274 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:45:03,069 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:45:03,069 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:45:29,208 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:45:29,209 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:45:33,759 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:45:33,760 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:45:33,852 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:45:33,853 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:45:37,224 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:45:37,225 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:45:38,224 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:45:38,225 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:45:43,309 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:45:43,309 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:47:30,241 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:47:30,242 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:47:35,723 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:47:35,723 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:48:50,551 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:48:50,552 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:48:55,626 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:48:55,627 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:49:03,103 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:49:03,104 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:49:11,588 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:49:11,589 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:49:11,678 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:49:11,678 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:49:15,344 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:49:15,345 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:49:16,413 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:49:16,413 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-24 20:49:21,937 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-24 20:49:21,939 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:26:28,948 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:26:28,950 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:26:58,977 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:26:58,979 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:26:59,709 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:26:59,709 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:29:40,975 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:29:40,975 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:30:56,799 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:30:56,801 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:30:57,926 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:30:57,927 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:30:59,908 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:30:59,909 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:31:02,252 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:31:02,253 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:31:08,028 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:31:08,030 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:31:10,195 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:31:10,195 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:31:15,778 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:31:15,779 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:31:19,788 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:31:19,788 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:31:23,930 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:31:23,932 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:32:41,486 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:32:41,487 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:32:45,161 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:32:45,161 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:33:22,048 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:33:22,050 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:33:26,884 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:33:26,885 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:33:26,985 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:33:26,985 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:33:30,188 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:33:30,189 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:33:30,978 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:33:30,978 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:33:34,344 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:33:34,345 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:38:48,568 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:38:48,570 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:38:52,692 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:38:52,693 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:38:52,799 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:38:52,800 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:38:55,998 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:38:55,999 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:38:56,843 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:38:56,843 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:40:19,234 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:40:19,236 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:40:23,372 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:40:23,373 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:40:23,474 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:40:23,475 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:40:26,453 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:40:26,455 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:40:27,201 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:40:27,202 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:43:09,233 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:43:09,235 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:43:13,131 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:43:13,132 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:43:13,222 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:43:13,223 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:43:16,347 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:43:16,348 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:43:17,137 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:43:17,138 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:47:05,298 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:47:05,299 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:47:26,195 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:47:26,196 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:47:49,662 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:47:49,663 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:47:53,853 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:47:53,854 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:47:53,957 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:47:53,958 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:47:57,212 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:47:57,212 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:47:58,004 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:47:58,005 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:51:42,541 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:51:42,542 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:51:52,713 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:51:52,714 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:51:52,804 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:51:52,804 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:51:56,944 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:51:56,945 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:51:57,845 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:51:57,845 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:52:34,251 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:52:34,252 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:52:39,377 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:52:39,378 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:52:39,476 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:52:39,477 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:52:42,368 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:52:42,370 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:52:43,184 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:52:43,185 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:54:24,921 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:54:24,922 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:54:29,200 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:54:29,200 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:54:29,296 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:54:29,296 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:54:32,633 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:54:32,634 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:54:33,666 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:54:33,666 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:55:49,113 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:55:49,114 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 08:58:20,977 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 08:58:20,978 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:01:23,921 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:01:23,922 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:01:29,775 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:01:29,775 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:01:29,867 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:01:29,867 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:01:32,966 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:01:32,968 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:01:34,777 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:01:34,778 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:06:49,983 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:06:49,984 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:07:34,732 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:07:34,735 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:07:37,165 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:07:37,166 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:07:40,707 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:07:40,708 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:07:40,820 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:07:40,821 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:07:44,136 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:07:44,137 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:07:45,057 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:07:45,058 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:28:51,521 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:28:51,523 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:28:59,137 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:28:59,137 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:28:59,224 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:28:59,224 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:29:05,636 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:29:05,637 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:29:06,669 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:29:06,670 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:29:27,005 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:29:27,007 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:33:57,518 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:33:57,519 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:34:02,054 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:34:02,054 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:34:02,144 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:34:02,144 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:34:05,070 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:34:05,071 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:34:06,326 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:34:06,326 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:34:12,343 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:34:12,344 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:42:28,057 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:42:28,058 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:42:32,351 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:42:32,352 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:42:32,429 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:42:32,430 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:42:35,678 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:42:35,679 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:42:36,718 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:42:36,718 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:42:48,536 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:42:48,537 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:49:13,376 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:49:13,377 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:49:22,025 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:49:22,026 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:59:02,108 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:59:02,110 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:59:06,331 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:59:06,331 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:59:06,415 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:59:06,415 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:59:09,774 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:59:09,775 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 09:59:10,774 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 09:59:10,775 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 10:00:19,870 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 10:00:19,871 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 10:00:45,500 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 10:00:45,501 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 10:00:46,712 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 10:00:46,713 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 10:00:57,453 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 10:00:57,454 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 10:01:42,788 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 10:01:42,791 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:35:57,819 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:35:57,820 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:36:03,387 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:36:03,388 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:36:03,494 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:36:03,495 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:36:07,239 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:36:07,239 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:36:10,103 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:36:10,104 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:36:25,556 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:36:25,558 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:36:29,972 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:36:29,972 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:38:09,514 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:38:09,517 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:38:12,178 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:38:12,179 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:38:14,134 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:38:14,134 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:38:15,864 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:38:15,865 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:38:16,659 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:38:16,659 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:38:18,996 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:38:18,997 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:40:15,776 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:40:15,777 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:40:20,833 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:40:20,833 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:40:20,938 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:40:20,939 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:40:24,379 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:40:24,381 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:40:25,686 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:40:25,687 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:40:33,734 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:40:33,735 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:40:36,930 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:40:36,932 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:40:38,985 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:40:38,986 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:41:11,870 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:41:11,879 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-25 11:41:13,524 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-25 11:41:13,525 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 13:24:15,753 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 13:24:15,755 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 13:26:56,058 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 13:26:56,061 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 13:26:56,216 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 13:26:56,216 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 13:27:57,927 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 13:27:57,932 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 13:29:56,428 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 13:29:56,430 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 13:29:58,627 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 13:29:58,627 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 13:30:50,901 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 13:30:50,903 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:17:08,214 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:17:08,215 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:17:13,418 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:17:13,419 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:17:13,513 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:17:13,514 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:17:16,430 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:17:16,431 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:17:17,173 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:17:17,173 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:17:27,310 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:17:27,310 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:17:31,441 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:17:31,442 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:18:05,426 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:18:05,427 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:21:14,338 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:21:14,339 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:22:01,705 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:22:01,707 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:22:03,832 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:22:03,833 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:24:38,963 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:24:38,963 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:28:05,202 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:28:05,202 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:28:15,230 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:28:15,232 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:28:16,720 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:28:16,721 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:28:19,895 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:28:19,896 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:28:24,906 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:28:24,907 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:28:37,021 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:28:37,023 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:30:39,218 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:30:39,220 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:30:49,642 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:30:49,644 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:30:49,729 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:30:49,729 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:30:51,553 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:30:51,553 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:30:52,308 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:30:52,309 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:30:59,897 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:30:59,897 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:31:03,761 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:31:03,762 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:33:19,349 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:33:19,351 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:40:41,923 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:40:41,923 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:42:05,759 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:42:05,760 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:43:26,223 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:43:26,224 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:44:58,091 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:44:58,091 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:45:32,369 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:45:32,370 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:45:36,779 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:45:36,779 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:45:36,918 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:45:36,919 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:45:38,513 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:45:38,514 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:45:39,194 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:45:39,194 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:45:47,652 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:45:47,652 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:45:50,047 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:45:50,049 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:47:08,052 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:47:08,053 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:48:23,266 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:48:23,266 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:51:06,982 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:51:06,985 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:51:08,759 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:51:08,760 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:51:08,827 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:51:08,827 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:52:04,728 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:52:04,730 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:52:04,991 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:52:04,992 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:52:08,442 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:52:08,443 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:52:08,519 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:52:08,520 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:52:10,622 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:52:10,623 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:52:11,439 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:52:11,439 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:52:18,879 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:52:18,880 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:52:30,370 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:52:30,373 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:54:34,655 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:54:34,656 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:54:43,839 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:54:43,840 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:54:45,582 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:54:45,582 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 14:54:53,780 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 14:54:53,780 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:03:05,727 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:03:05,727 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:05:19,764 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:05:19,765 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:06:29,211 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:06:29,212 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:06:36,468 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:06:36,468 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:14:04,727 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:14:04,728 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:14:34,062 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:14:34,063 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:14:43,013 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:14:43,015 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:15:51,024 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:15:51,024 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:18:01,781 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:18:01,783 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:18:06,391 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:18:06,392 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:18:06,478 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:18:06,479 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:18:08,059 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:18:08,060 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:18:08,794 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:18:08,794 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:18:49,281 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:18:49,282 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:18:51,782 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:18:51,782 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:26:18,827 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:26:18,827 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:27:00,097 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:27:00,098 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:30:03,501 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:30:03,502 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:30:33,172 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:30:33,172 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:34:58,753 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:34:58,754 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:35:03,462 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:35:03,463 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:35:07,201 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:35:07,202 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:35:14,527 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:35:14,528 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:35:14,634 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:35:14,634 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:35:16,243 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:35:16,243 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:35:24,093 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:35:24,095 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:35:50,548 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:35:50,550 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:36:24,928 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:36:24,929 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:36:28,097 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:36:28,098 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:40:19,686 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:40:19,688 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:40:27,500 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:40:27,503 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:40:28,645 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:40:28,646 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:40:30,483 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:40:30,484 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:41:04,594 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:41:04,595 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:42:02,160 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:42:02,161 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:55:15,257 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:55:15,257 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:55:24,395 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:55:24,396 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:55:25,195 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:55:25,196 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:55:26,423 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:55:26,423 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:56:12,959 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:56:12,962 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:56:17,484 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:56:17,484 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:56:17,577 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:56:17,577 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:56:19,163 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:56:19,163 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 15:56:19,941 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 15:56:19,941 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:02:46,423 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:02:46,425 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:02:50,000 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:02:50,001 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:02:50,093 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:02:50,093 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:02:52,426 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:02:52,426 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:02:53,272 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:02:53,272 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:03:18,317 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:03:18,318 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:03:22,353 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:03:22,354 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:03:22,434 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:03:22,434 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:03:26,963 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:03:26,965 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:03:32,386 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:03:32,388 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:03:33,936 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:03:33,937 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:07:37,340 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:07:37,342 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:07:42,307 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:07:42,307 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:07:42,392 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:07:42,392 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:07:47,309 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:07:47,311 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:07:48,562 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:07:48,562 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:09:35,122 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:09:35,123 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:09:36,147 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:09:36,147 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:09:39,827 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:09:39,827 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:09:39,945 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:09:39,946 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:09:42,167 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:09:42,168 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:09:42,895 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:09:42,895 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:09:52,651 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:09:52,653 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:09:53,994 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:09:53,995 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:11:10,669 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:11:10,672 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:11:12,462 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:11:12,462 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:12:25,070 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:12:25,072 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:12:37,839 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:12:37,840 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:12:37,915 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:12:37,915 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:12:48,899 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:12:48,900 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:12:50,457 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:12:50,457 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:14:47,445 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:14:47,446 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:14:47,658 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:14:47,659 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:14:52,121 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:14:52,122 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:14:52,217 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:14:52,218 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:14:54,180 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:14:54,181 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:14:57,477 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:14:57,477 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:15:01,444 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:15:01,445 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:15:01,517 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:15:01,517 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:15:14,712 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:15:14,713 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:31:29,689 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:31:29,690 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:31:36,955 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:31:36,957 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:31:37,071 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:31:37,072 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:33:06,872 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:33:06,874 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:33:11,894 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:33:11,895 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:33:23,553 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:33:23,555 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:33:23,653 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:33:23,654 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:35:37,205 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:35:37,206 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:35:40,619 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:35:40,620 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:35:45,267 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:35:45,268 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:35:45,346 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:35:45,347 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:36:49,921 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:36:49,923 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:36:53,102 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:36:53,103 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:36:53,189 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:36:53,190 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:40:16,554 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:40:16,555 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:40:17,598 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:40:17,599 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:40:21,149 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:40:21,150 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:40:21,219 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:40:21,219 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:41:07,216 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:41:07,220 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:41:09,181 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:41:09,182 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:43:57,516 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:43:57,521 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:43:58,807 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:43:58,807 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:44:06,051 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:44:06,052 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:44:08,081 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:44:08,082 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:44:09,081 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:44:09,082 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:44:10,564 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:44:10,564 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:44:15,559 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:44:15,560 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:44:43,360 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:44:43,362 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:49:00,223 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:49:00,225 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:49:01,381 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:49:01,382 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:53:38,114 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:53:38,115 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:59:50,111 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:59:50,115 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 16:59:51,135 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 16:59:51,136 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:04:24,741 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:04:24,742 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:04:30,756 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:04:30,757 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:04:30,855 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:04:30,856 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:04:40,175 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:04:40,176 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:05:29,598 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:05:29,600 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:32:12,854 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:32:12,855 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:32:17,185 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:32:17,185 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:32:17,317 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:32:17,317 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:32:21,253 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:32:21,253 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:32:22,103 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:32:22,103 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:32:56,483 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:32:56,485 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:36:29,797 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:36:29,797 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:36:38,916 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:36:38,917 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:36:40,325 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:36:40,325 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:37:22,586 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:37:22,588 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:42:17,553 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:42:17,554 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:42:22,582 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:42:22,582 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:42:22,690 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:42:22,691 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:42:26,313 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:42:26,313 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:43:48,055 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:43:48,057 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:43:58,971 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:43:58,971 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:44:37,348 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:44:37,350 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:44:56,562 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:44:56,563 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:45:18,388 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:45:18,390 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:45:50,399 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:45:50,400 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:45:54,978 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:45:54,979 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:45:55,062 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:45:55,062 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:46:03,549 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:46:03,550 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:47:14,888 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:47:14,889 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:47:18,199 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:47:18,199 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:47:21,509 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:47:21,510 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:47:21,597 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:47:21,597 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:47:27,284 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:47:27,285 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 17:50:17,873 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 17:50:17,876 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:20:47,509 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:20:47,510 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:20:51,677 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:20:51,677 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:20:51,787 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:20:51,788 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:20:54,804 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:20:54,805 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:20:56,469 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:20:56,469 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:21:47,916 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:21:47,917 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:22:08,804 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:22:08,805 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:22:18,874 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:22:18,875 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:22:30,819 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:22:30,820 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:23:20,169 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:23:20,169 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:25:42,202 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:25:42,204 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:25:43,817 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:25:43,817 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:25:46,005 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:25:46,006 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:25:59,207 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:25:59,208 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:26:06,104 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:26:06,105 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:26:06,192 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:26:06,193 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:26:10,601 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:26:10,601 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:26:12,468 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:26:12,469 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:26:18,308 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:26:18,309 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:26:28,061 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:26:28,062 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:26:58,712 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:26:58,715 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:27:03,664 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:27:03,665 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:27:06,078 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:27:06,078 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:27:11,537 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:27:11,538 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-26 18:28:53,374 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-26 18:28:53,374 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 08:58:05,718 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 08:58:05,720 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 08:58:12,482 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 08:58:12,482 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 08:58:12,542 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 08:58:12,542 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:02:57,604 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:02:57,606 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:03:06,316 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:03:06,316 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:03:08,953 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:03:08,955 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:03:14,984 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:03:14,985 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:03:15,083 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:03:15,084 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:16,859 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:16,860 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:22,802 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:22,803 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:22,898 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:22,899 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:27,868 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:27,868 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:27,931 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:27,932 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:37,829 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:37,830 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:37,899 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:37,900 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:52,569 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:52,572 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:52,638 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:52,639 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:55,058 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:55,060 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:55,120 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:55,120 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:56,832 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:56,833 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:56,877 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:56,879 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:58,118 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:58,118 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:58,182 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:58,182 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:58,844 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:58,845 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:09:58,904 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:09:58,905 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:10:39,211 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:10:39,212 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:10:39,280 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:10:39,281 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:18,231 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:18,240 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:18,352 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:18,352 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:20,074 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:20,075 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:20,139 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:20,139 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:24,284 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:24,284 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:24,332 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:24,333 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:25,956 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:25,957 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:26,013 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:26,013 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:28,446 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:28,447 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:28,510 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:28,511 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:29,567 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:29,567 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:29,628 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:29,629 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:34,982 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:34,984 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:35,048 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:35,048 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:54,505 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:54,505 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:54,594 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:54,595 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:59,572 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:59,573 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:14:59,635 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:14:59,636 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:15:05,891 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:15:05,892 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:15:05,984 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:15:05,985 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:15:32,606 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:15:32,608 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:15:32,674 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:15:32,674 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:22:17,116 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:22:17,117 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:22:17,219 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:22:17,220 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:22:17,974 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:22:17,974 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:22:18,036 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:22:18,037 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:26:59,570 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:26:59,571 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:27:03,742 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:27:03,743 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:27:03,836 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:27:03,837 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:27:28,698 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:27:28,699 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:27:32,459 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:27:32,460 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:27:32,543 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:27:32,544 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:27:40,521 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:27:40,522 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:27:40,582 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:27:40,582 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:27:52,012 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:27:52,013 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:27:52,077 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:27:52,077 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:27:59,771 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:27:59,773 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:27:59,833 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:27:59,833 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:28:39,300 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:28:39,301 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:28:44,124 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:28:44,124 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:28:44,209 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:28:44,210 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:28:51,811 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:28:51,813 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:28:51,878 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:28:51,878 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:29:51,449 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:29:51,452 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:30:36,769 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:30:36,771 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:30:45,808 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:30:45,810 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:31:51,968 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:31:51,971 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:31:52,128 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:31:52,128 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:32:32,888 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:32:32,891 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:32:33,020 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:32:33,020 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:32:37,769 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:32:37,770 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:32:37,822 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:32:37,823 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 09:33:48,611 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 09:33:48,613 - __main__ - INFO - StreamlitInterface initialization completed
+2025-02-27 13:10:12,895 - __main__ - INFO - Initializing StreamlitInterface
+2025-02-27 13:10:12,897 - __main__ - INFO - StreamlitInterface initialization completed

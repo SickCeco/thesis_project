@@ -1,0 +1,181 @@
+2025-02-20 11:14:05,921 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:14:05,922 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:14:05,922 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:14:05,922 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:14:05,922 - __main__ - ERROR - Failed to initialize dependencies: WorkoutPlanManager.__init__() missing 1 required positional argument: 'user_manager'
+2025-02-20 11:14:05,922 - __main__ - ERROR - Application error: WorkoutPlanManager.__init__() missing 1 required positional argument: 'user_manager'
+2025-02-20 11:14:34,074 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:14:34,075 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:14:34,075 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:14:34,075 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:14:35,402 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:14:36,556 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:14:37,020 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:14:37,559 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:14:38,186 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:14:38,903 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:14:39,500 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:14:39,767 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:14:39,853 - __main__ - ERROR - Application error: StreamlitInterface.__init__() got an unexpected keyword argument 'user_manager'
+2025-02-20 11:16:13,121 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:16:13,122 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:16:13,122 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:16:13,122 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:16:13,122 - __main__ - ERROR - Failed to initialize dependencies: WorkoutPlanManager.__init__() missing 1 required positional argument: 'user_manager'
+2025-02-20 11:16:13,122 - __main__ - ERROR - Application error: WorkoutPlanManager.__init__() missing 1 required positional argument: 'user_manager'
+2025-02-20 11:16:52,300 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:16:52,300 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:16:52,300 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:16:52,300 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:16:53,136 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:16:53,425 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:16:54,053 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:16:54,465 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:16:54,875 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:16:55,696 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:16:55,986 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:16:56,631 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:16:56,709 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:16:56,711 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:17:00,870 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:00,871 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:00,871 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:00,871 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:01,634 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:01,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:02,212 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:02,774 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:03,170 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:03,941 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:04,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:04,825 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:04,907 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:17:04,908 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:17:09,470 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:09,470 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:09,470 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:09,470 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:09,987 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:10,441 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:10,727 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:11,118 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:11,628 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:12,015 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:12,346 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:12,656 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:12,736 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:17:12,737 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:17:12,951 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:12,951 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:12,951 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:12,951 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:13,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:14,365 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:14,748 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:15,150 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:15,547 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:15,818 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:16,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:16,687 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:16,766 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:17:16,766 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:17:29,175 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:29,176 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:29,176 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:29,176 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:17:29,899 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:30,410 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:30,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:31,331 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:31,748 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:32,151 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:32,550 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:32,894 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:17:32,976 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:17:32,977 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:18:17,410 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:17,411 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:17,411 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:17,411 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:18,081 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:18,466 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:18,847 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:19,256 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:19,701 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:20,177 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:20,522 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:20,997 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:21,081 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:18:21,082 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:18:21,268 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:21,268 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:21,268 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:21,268 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:22,021 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:22,435 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:22,941 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:23,550 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:24,171 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:24,450 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:24,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:25,401 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:25,481 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:18:25,482 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:18:27,899 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:27,899 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:27,900 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:27,900 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:28,443 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:28,759 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:29,191 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:29,596 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:29,861 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:30,214 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:30,616 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:30,928 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:31,009 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:18:31,010 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:18:31,205 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:31,205 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:31,205 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:31,205 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:31,853 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:32,264 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:32,671 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:32,970 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:33,481 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:33,821 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:34,103 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:34,617 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:34,697 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:18:34,697 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:18:34,698 - __main__ - ERROR - Application error: 'MealPlanManager' object has no attribute 'get_latest_meal_plan'
+2025-02-20 11:18:40,351 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:40,352 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:40,352 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:40,353 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:18:41,069 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:41,344 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:41,741 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:42,196 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:42,688 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:42,982 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:43,423 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:43,695 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:18:43,784 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:18:43,785 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:19:56,568 - meal_plans_manager - WARNING - Unable to load vector store for Food: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:19:56,569 - meal_plans_manager - WARNING - Unable to load vector store for MealPlan: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:19:56,569 - meal_plans_manager - WARNING - Unable to load vector store for MealDay: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:19:56,569 - meal_plans_manager - WARNING - Unable to load vector store for Meal: 'Neo4jConnector' object has no attribute 'url'
+2025-02-20 11:19:57,258 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:19:57,665 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:19:57,940 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:19:58,276 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:19:58,731 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:19:59,120 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:19:59,541 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:19:59,943 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-20 11:20:00,024 - streamlit_interface - INFO - Initializing StreamlitInterface
+2025-02-20 11:20:00,025 - streamlit_interface - INFO - StreamlitInterface initialization completed
+2025-02-20 11:20:00,032 - __main__ - ERROR - Application error: st.session_state has no attribute "bot". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization

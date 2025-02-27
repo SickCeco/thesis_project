@@ -1,0 +1,13 @@
+#apoc.conf
+apoc.export.file.enabled=true
+
+#estrarre json
+CALL apoc.export.json.query(
+    "MATCH (n)-[r]->(m) RETURN collect({n: n, r: r, m: m}) AS graph",
+    "graph_filtered.json",
+    {}
+)
+
+
+MATCH (n) RETURN n.embedding lIMIT 5
+
