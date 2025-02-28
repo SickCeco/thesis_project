@@ -242,15 +242,15 @@ class GraphRAGBot:
     def check_question_feasibility(self, question: str) -> Tuple[bool, str]:
         """
         Verifica se la domanda può essere risposta usando il knowledge graph,
-        basandosi sulla struttura effettiva del grafo.
+        considerando anche percorsi indiretti nel grafo.
         """
         print("\nChecking question feasibility...")
         try:
             system_prompt = """You are a knowledge graph expert for fitness and nutrition.
-            Your task is to assess if a question can be answered using ONLY the data and relationships 
-            available in our knowledge graph. Be strict and conservative in your assessment.
+            Your task is to assess if a question can be answered using data and relationships 
+            available in our knowledge graph, including indirect paths through the graph.
 
-            Our knowledge graph contains EXACTLY these nodes with their properties:
+            Our knowledge graph contains these nodes with their properties:
             
             Nodes:
             - User: [userId, name, weight, height, age, gender, activityLevel, goal, preferences]
@@ -271,44 +271,33 @@ class GraphRAGBot:
             - WorkoutPlan -[HAS_WORKOUT_DAY]-> WorkoutDay
             - WorkoutDay -[HAS_EXERCISE {sets, repetitions}]-> Exercise
             
-            Based on this structure, we can ONLY answer questions about:
-
-            1. Specific properties of nodes (e.g., calories in a food, description of an exercise)
-            2. Direct relationships between nodes (e.g., which foods are in a meal, which exercises are in a workout plan)
-            3. Paths through the graph (e.g., what foods are in the meal plans that a user follows)
-            4. Simple calculations using available properties (e.g., protein-to-calorie ratio of foods)
-            5. Aggregations of data (e.g., average protein content of meals in a plan)
+            IMPORTANT: We CAN answer questions that require following INDIRECT PATHS through the graph!
             
-            Examples of questions we CAN answer:
-            - "What exercises target the chest as primary muscle?"
-            - "What foods have the highest protein content?"
-            - "Which workout plans focus on strength training?"
-            - "What meals are included in the meal plan that User X follows?"
-            - "What's the average calorie content of breakfast meals?"
+            For example, these questions ARE answerable:
+            - "What meal plans do users with weight loss goals follow?" (User with goal='weight loss' -[FOLLOWS]-> MealPlan)
+            - "What foods are in the meals of workout plans followed by active users?" (User with activityLevel='high' -[FOLLOWS]-> WorkoutPlan -[HAS_WORKOUT_DAY]-> WorkoutDay -[HAS_EXERCISE]-> Exercise)
+            - "Which exercises are included in workout plans followed by users who prefer vegetarian meals?" (Can trace path from User through preferences and both plan types)
+            
+            We can answer questions about:
+            1. ANY properties stored in nodes (e.g., user goals, food calories, exercise descriptions)
+            2. ANY direct AND indirect relationships in the graph
+            3. Paths that require traversing multiple relationships
+            4. Filtering nodes based on their properties
+            5. Simple calculations and aggregations using available data
             
             We CANNOT answer questions about:
-            1. General nutrition or fitness advice not tied to our specific data
-            2. Personalized recommendations that require expertise beyond our graph data
-            3. Medical advice or health impact predictions
-            4. Temporal effects (like what to eat before/after workouts)
-            5. Any information not explicitly represented in our node properties or relationships
-            6. Weight loss effectiveness of specific exercises
-            7. Diet adaptations to activity levels without explicit rules in our data
-            
-            Examples of questions we CANNOT answer:
-            - "What should I eat before working out?" (temporal advice)
-            - "How can I adapt my diet to my activity level?" (requires expertise beyond data)
-            - "What are the best exercises for weight loss?" (effectiveness judgment)
-            - "Will this diet help lower my cholesterol?" (medical prediction)
+            1. General nutrition or fitness advice not based on our data
+            2. Medical predictions or health impacts
+            3. Information not represented in our node properties or relationships
             
             IMPORTANT: 
             - Your answer MUST start with either YES or NO
-            - For YES, the question must be answerable using ONLY the data and relationships in our graph
-            - For NO, explain briefly why we cannot answer it with our current data
-            - Be very strict: if there's any doubt, answer NO
+            - Answer YES if the question can be answered by following paths through the graph and accessing node properties
+            - For YES, briefly explain which path or properties would be used
+            - For NO, explain why we cannot answer it with our current data structure
             """
             
-            feasibility_prompt = f"{system_prompt}\n\nQuestion: {question}\n\nCan this question be answered using only our knowledge graph data? Answer YES or NO and explain:"
+            feasibility_prompt = f"{system_prompt}\n\nQuestion: {question}\n\nCan this question be answered using our knowledge graph data? Answer YES or NO and explain:"
             response = self.llm.invoke(feasibility_prompt)
             
             response_text = response.content
