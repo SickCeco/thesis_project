@@ -241,68 +241,52 @@ class GraphRAGBot:
 
     def check_question_feasibility(self, question: str) -> Tuple[bool, str]:
         """
-        Step 1: Verifica se la domanda può essere risposta usando il knowledge graph,
-        includendo analisi più complesse dei dati disponibili.
+        Verifica se la domanda può essere risposta usando il knowledge graph,
+        considerando solo le informazioni presenti nel grafo.
         """
         print("\nChecking question feasibility...")
         try:
             system_prompt = """You are a knowledge graph expert for fitness and nutrition.
-            Evaluate if we can answer questions using data analysis and relationships in our knowledge graph.
-            Consider both direct queries and analytical questions that can be derived from our data.
+            Your task is to assess if a question can be answered using ONLY the data and relationships 
+            available in our knowledge graph. Be strict and conservative in your assessment.
 
-            We can answer questions about:
+            Our knowledge graph contains ONLY these nodes and relationships:
+            
+            Nodes:
+            - Meals: properties [type, mealId]
+            - Foods: properties [name, category, calories, proteins, carbohydrates, fats]
+            - Exercises: properties [name, type, description, primaryMuscle]
+            - Users: properties [name, age, goal, preferences, weight, activityLevel]
+            - Plans: properties [duration, focus]
+            
+            Available relationships between nodes:
+            - Foods are part of Meals
+            - Exercises are part of Workout Plans
+            - Users follow Meal Plans and Workout Plans
+            - Foods can be preferred by Users
+            - Exercises target specific muscle groups
+            
+            We can ONLY answer questions about:
 
-            1. Meal and Nutrition Analysis:
-            - Direct queries about meals, foods, and their properties
-            - Nutritional analysis and comparisons (protein ratios, caloric efficiency)
-            - Pattern analysis across meal compositions
-            - Nutritional optimization queries
-            - Food category analysis and grouping
+            1. Specific properties of nodes (e.g., calories in a food, description of an exercise)
+            2. Direct relationships between nodes (e.g., which foods are in a meal, which exercises target a muscle)
+            3. Simple calculations or comparisons using available properties (e.g., protein-to-calorie ratio)
             
-            2. Workout Analysis:
-            - Exercises 
-            - Workout pattern analysis
-            - Exercise sequence optimization
-            - Muscle group targeting efficiency
-            - Training load distribution
-            
-            3. User-Focused Analysis:
-            - Progress tracking and goal alignment
-            - Personalized recommendations based on properties
-            - Preference pattern analysis
-            - Activity level correlations
-            
-            4. Cross-Domain Analysis:
-            - Nutrition-exercise relationships
-            - Meal timing relative to workouts
-            - Performance optimization combinations
-            - Goal-based program analysis
-            
-            5. Data-Driven Insights:
-            - Statistical analysis of available properties
-            - Trend identification across users
-            - Effectiveness comparisons
-            - Property correlations and patterns
-            
-            Consider these data elements available in our graph:
-            - Meals: type, mealId
-            - Foods: name, category, calories, proteins, carbohydrates, fats
-            - Exercises: name, type, description, primaryMuscle
-            - Users: name, age, goal, preferences, weight, activityLevel
-            - Plans: duration, focus (both meal and workout)
+            We CANNOT answer questions about:
+            1. General nutrition or fitness advice not directly tied to our data
+            2. Personalized recommendations without specific user context in our graph
+            3. Medical advice or health impact predictions
+            4. Temporal effects (like what to eat before/after workouts)
+            5. Any information not explicitly represented in our node properties or relationships
             
             IMPORTANT: 
-            - Your answer MUST BE either YES or NO
-            - Answer YES if the question can be answered through:
-            1. Direct data queries
-            2. Data analysis and calculations
-            3. Pattern recognition from available properties
-            4. Relationship analysis between nodes
-            - Even complex analytical questions should be answerable if they only require 
-            mathematical operations on available properties
+            - Your answer MUST start with either YES or NO
+            - For YES, the question must be answerable using ONLY the data and relationships in our graph
+            - For NO, explain briefly why we cannot answer it with our current data
+            - Be very strict: if there's any doubt, answer NO
             """
             
-            feasibility_prompt = f"{system_prompt}\n\nQuestion: {question}"
+            feasibility_prompt = f"{system_prompt}\n\nQuestion: {question}\n\nCan this question be answered using only our knowledge graph data? Answer YES or NO and explain:"
             response = self.llm.invoke(feasibility_prompt)
             
             response_text = response.content

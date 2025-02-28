@@ -220,35 +220,36 @@ class StreamlitInterface:
             st.session_state.messages.append({"role": "assistant", "content": response})
 
     def generate_welcome_message(self):
-        """Generates a welcome message describing the bot's capabilities"""
+        """Generates a welcome message describing the bot's capabilities based on what's in the knowledge graph"""
         welcome_message = """
     👋 **Welcome to the GraphRAG Fitness & Nutrition Assistant!**
 
-    I'm here to help you with questions about fitness, nutrition, and healthy lifestyle. Here are some examples of questions I can answer:
+    I'm here to help you with questions about fitness and nutrition based on my knowledge graph. Here are some examples of questions I can answer:
 
     📊 **Nutritional Analysis**:
     - "Which food has the best protein-to-calorie ratio?"
     - "What foods are high in protein but low in fat?"
-    - "How can I optimize my meals to reach my goals?"
+    - "Which meals contain the most protein?"
 
-    💪 **Workout Analysis**:
-    - "Which exercises are best for triceps?"
-    - "How can I structure a strength workout?"
-    - "What exercises should I avoid if I have knee problems?"
+    💪 **Workout Information**:
+    - "Which exercises target triceps as the primary muscle?"
+    - "What type of exercise is the bench press?"
+    - "List all exercises that work the back muscles"
 
-    🏆 **Personalized Advice**:
-    - "What should I eat before working out?"
-    - "How can I adapt my diet to my activity level?"
-    - "What are the best exercises for weight loss?"
+    📈 **Data-Driven Insights**:
+    - "Compare the calorie content of different food categories"
+    - "Which foods in our database have the highest carbohydrate content?"
+    - "What's the average protein content in our breakfast meals?"
 
-    🔄 **Combined Analysis**:
-    - "How should I sync meals with my workout schedule?"
-    - "Which foods are best for muscle recovery?"
+    🔍 **Specific Relationship Queries**:
+    - "Which foods are included in the high-protein meal plan?"
+    - "What exercises are recommended for users with weight loss goals?"
+    - "List all the foods in the vegetarian category"
 
-    Feel free to ask me any fitness and nutrition questions, and I'll do my best to help you!
+    Feel free to ask me questions about the nutrition and fitness data in my knowledge graph!
     """
         return welcome_message
-
+    
     def show_meal_plan_page(self):
         """Display the meal plan page with daily breakdown of meals and generation capability."""
         if not st.session_state.authenticated:
