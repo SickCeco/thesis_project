@@ -242,7 +242,7 @@ class GraphRAGBot:
     def check_question_feasibility(self, question: str) -> Tuple[bool, str]:
         """
         Verifica se la domanda può essere risposta usando il knowledge graph,
-        considerando solo le informazioni presenti nel grafo.
+        basandosi sulla struttura effettiva del grafo.
         """
         print("\nChecking question feasibility...")
         try:
@@ -250,34 +250,56 @@ class GraphRAGBot:
             Your task is to assess if a question can be answered using ONLY the data and relationships 
             available in our knowledge graph. Be strict and conservative in your assessment.
 
-            Our knowledge graph contains ONLY these nodes and relationships:
+            Our knowledge graph contains EXACTLY these nodes with their properties:
             
             Nodes:
-            - Meals: properties [type, mealId]
-            - Foods: properties [name, category, calories, proteins, carbohydrates, fats]
-            - Exercises: properties [name, type, description, primaryMuscle]
-            - Users: properties [name, age, goal, preferences, weight, activityLevel]
-            - Plans: properties [duration, focus]
+            - User: [userId, name, weight, height, age, gender, activityLevel, goal, preferences]
+            - MealPlan: [mealPlanId, focus, duration]
+            - MealDay: [mealDayId, name]
+            - Meal: [mealId, type]
+            - Food: [foodId, name, category, calories, proteins, carbohydrates, fats, knowledgeBase]
+            - WorkoutPlan: [workoutPlanId, focus, duration]
+            - WorkoutDay: [workoutDayId, name]
+            - Exercise: [exerciseId, name, type, primaryMuscle, description]
             
-            Available relationships between nodes:
-            - Foods are part of Meals
-            - Exercises are part of Workout Plans
-            - Users follow Meal Plans and Workout Plans
-            - Foods can be preferred by Users
-            - Exercises target specific muscle groups
+            Relationships between nodes:
+            - User -[FOLLOWS]-> MealPlan
+            - User -[FOLLOWS]-> WorkoutPlan
+            - MealPlan -[HAS_MEAL_DAY]-> MealDay
+            - MealDay -[HAS_MEAL]-> Meal
+            - Meal -[CONTAINS {quantity}]-> Food
+            - WorkoutPlan -[HAS_WORKOUT_DAY]-> WorkoutDay
+            - WorkoutDay -[HAS_EXERCISE {sets, repetitions}]-> Exercise
             
-            We can ONLY answer questions about:
+            Based on this structure, we can ONLY answer questions about:
 
             1. Specific properties of nodes (e.g., calories in a food, description of an exercise)
-            2. Direct relationships between nodes (e.g., which foods are in a meal, which exercises target a muscle)
-            3. Simple calculations or comparisons using available properties (e.g., protein-to-calorie ratio)
+            2. Direct relationships between nodes (e.g., which foods are in a meal, which exercises are in a workout plan)
+            3. Paths through the graph (e.g., what foods are in the meal plans that a user follows)
+            4. Simple calculations using available properties (e.g., protein-to-calorie ratio of foods)
+            5. Aggregations of data (e.g., average protein content of meals in a plan)
+            
+            Examples of questions we CAN answer:
+            - "What exercises target the chest as primary muscle?"
+            - "What foods have the highest protein content?"
+            - "Which workout plans focus on strength training?"
+            - "What meals are included in the meal plan that User X follows?"
+            - "What's the average calorie content of breakfast meals?"
             
             We CANNOT answer questions about:
-            1. General nutrition or fitness advice not directly tied to our data
-            2. Personalized recommendations without specific user context in our graph
+            1. General nutrition or fitness advice not tied to our specific data
+            2. Personalized recommendations that require expertise beyond our graph data
             3. Medical advice or health impact predictions
             4. Temporal effects (like what to eat before/after workouts)
             5. Any information not explicitly represented in our node properties or relationships
+            6. Weight loss effectiveness of specific exercises
+            7. Diet adaptations to activity levels without explicit rules in our data
+            
+            Examples of questions we CANNOT answer:
+            - "What should I eat before working out?" (temporal advice)
+            - "How can I adapt my diet to my activity level?" (requires expertise beyond data)
+            - "What are the best exercises for weight loss?" (effectiveness judgment)
+            - "Will this diet help lower my cholesterol?" (medical prediction)
             
             IMPORTANT: 
             - Your answer MUST start with either YES or NO

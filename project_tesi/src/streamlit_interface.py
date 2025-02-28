@@ -220,36 +220,36 @@ class StreamlitInterface:
             st.session_state.messages.append({"role": "assistant", "content": response})
 
     def generate_welcome_message(self):
-        """Generates a welcome message describing the bot's capabilities based on what's in the knowledge graph"""
+        """Generates a welcome message with examples based on the actual knowledge graph structure"""
         welcome_message = """
     👋 **Welcome to the GraphRAG Fitness & Nutrition Assistant!**
 
     I'm here to help you with questions about fitness and nutrition based on my knowledge graph. Here are some examples of questions I can answer:
 
-    📊 **Nutritional Analysis**:
-    - "Which food has the best protein-to-calorie ratio?"
-    - "What foods are high in protein but low in fat?"
-    - "Which meals contain the most protein?"
+    📊 **Food & Nutrition Analysis**:
+    - "Which foods have the highest protein-to-calorie ratio?"
+    - "What foods in the database are high in protein but low in fat?"
+    - "Show me all foods in the 'vegetables' category"
 
-    💪 **Workout Information**:
-    - "Which exercises target triceps as the primary muscle?"
-    - "What type of exercise is the bench press?"
-    - "List all exercises that work the back muscles"
+    🍽️ **Meal & Plan Information**:
+    - "What meals are included in the high-protein meal plan?"
+    - "What types of meals are available in the database?"
+    - "What's the average calorie content of breakfast meals?"
 
-    📈 **Data-Driven Insights**:
-    - "Compare the calorie content of different food categories"
-    - "Which foods in our database have the highest carbohydrate content?"
-    - "What's the average protein content in our breakfast meals?"
+    💪 **Exercise & Workout Data**:
+    - "What exercises target the chest as primary muscle?"
+    - "Which workout plans focus on strength training?"
+    - "List all exercises of type 'bodyweight'"
 
-    🔍 **Specific Relationship Queries**:
-    - "Which foods are included in the high-protein meal plan?"
-    - "What exercises are recommended for users with weight loss goals?"
-    - "List all the foods in the vegetarian category"
+    👤 **User-related Queries**:
+    - "What meal plans do users with weight loss goals follow?"
+    - "Show me the exercises in the workout plan followed by User X"
+    - "What foods are included in meal plans followed by users with high activity levels?"
 
-    Feel free to ask me questions about the nutrition and fitness data in my knowledge graph!
+    Feel free to ask me questions about the specific nutrition and fitness data in my knowledge graph!
     """
         return welcome_message
-    
+
     def show_meal_plan_page(self):
         """Display the meal plan page with daily breakdown of meals and generation capability."""
         if not st.session_state.authenticated:
