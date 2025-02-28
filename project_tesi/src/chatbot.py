@@ -114,6 +114,7 @@ class GraphRAGBot:
             4. Use the correct relationship directions as specified in the schema
             5. Include all necessary relationships and properties
             6. Make sure property names match exactly with the schema
+            7. DO NOT use LIMIT clauses unless the user explicitly asks for a limited number of results
             
             Current question: {query}"""),
             MessagesPlaceholder(variable_name="history"),
