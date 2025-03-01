@@ -1,7 +1,7 @@
 import logging
 from typing import Dict, List, Optional, Union, Tuple
 from datetime import datetime
-from venv import logger
+from logging import logger
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
