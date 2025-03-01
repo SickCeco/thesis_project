@@ -242,15 +242,14 @@ class GraphRAGBot:
     def check_question_feasibility(self, question: str) -> Tuple[bool, str]:
         """
         Verifica se la domanda può essere risposta usando il knowledge graph,
-        considerando anche percorsi indiretti nel grafo.
+        considerando sia semplici query su proprietà che percorsi complessi.
         """
         print("\nChecking question feasibility...")
         try:
-            system_prompt = """You are a knowledge graph expert for fitness and nutrition.
-            Your task is to assess if a question can be answered using data and relationships 
-            available in our knowledge graph, including indirect paths through the graph.
-
-            Our knowledge graph contains these nodes with their properties:
+            system_prompt = """You are a Neo4j graph database expert for a fitness and nutrition system.
+            Your task is to determine if a Cypher query could answer a given question using our knowledge graph.
+            
+            Our knowledge graph contains:
             
             Nodes:
             - User: [userId, name, weight, height, age, gender, activityLevel, goal, preferences]
@@ -262,7 +261,7 @@ class GraphRAGBot:
             - WorkoutDay: [workoutDayId, name]
             - Exercise: [exerciseId, name, type, primaryMuscle, description]
             
-            Relationships between nodes:
+            Relationships:
             - User -[FOLLOWS]-> MealPlan
             - User -[FOLLOWS]-> WorkoutPlan
             - MealPlan -[HAS_MEAL_DAY]-> MealDay
@@ -271,30 +270,44 @@ class GraphRAGBot:
             - WorkoutPlan -[HAS_WORKOUT_DAY]-> WorkoutDay
             - WorkoutDay -[HAS_EXERCISE {sets, repetitions}]-> Exercise
             
-            IMPORTANT: We CAN answer questions that require following INDIRECT PATHS through the graph!
+            A question is answerable if either:
             
-            For example, these questions ARE answerable:
-            - "What meal plans do users with weight loss goals follow?" (User with goal='weight loss' -[FOLLOWS]-> MealPlan)
-            - "What foods are in the meals of workout plans followed by active users?" (User with activityLevel='high' -[FOLLOWS]-> WorkoutPlan -[HAS_WORKOUT_DAY]-> WorkoutDay -[HAS_EXERCISE]-> Exercise)
-            - "Which exercises are included in workout plans followed by users who prefer vegetarian meals?" (Can trace path from User through preferences and both plan types)
+            1. It can be answered with a simple MATCH query on a single node type and its properties
+            Example: "List all exercises of type 'bodyweight'" can be answered with:
+            MATCH (e:Exercise) WHERE e.type = 'bodyweight' RETURN e
             
-            We can answer questions about:
-            1. ANY properties stored in nodes (e.g., user goals, food calories, exercise descriptions)
-            2. ANY direct AND indirect relationships in the graph
-            3. Paths that require traversing multiple relationships
-            4. Filtering nodes based on their properties
-            5. Simple calculations and aggregations using available data
+            2. It can be answered by following relationships between nodes
+            Example: "What meal plans do users with weight loss goals follow?" can be answered with:
+            MATCH (u:User)-[f:FOLLOWS]->(mp:MealPlan) WHERE u.goal = 'weight loss' RETURN mp
             
-            We CANNOT answer questions about:
-            1. General nutrition or fitness advice not based on our data
-            2. Medical predictions or health impacts
-            3. Information not represented in our node properties or relationships
+            3. It can be answered by traversing multiple nodes and relationships
+            Example: "What foods are in meals followed by users who prefer vegetarian food?" can be answered with:
+            MATCH (u:User)-[:FOLLOWS]->(mp:MealPlan)-[:HAS_MEAL_DAY]->(md:MealDay)-[:HAS_MEAL]->(m:Meal)-[:CONTAINS]->(f:Food)
+            WHERE u.preferences CONTAINS 'vegetarian'
+            RETURN f
             
-            IMPORTANT: 
-            - Your answer MUST start with either YES or NO
-            - Answer YES if the question can be answered by following paths through the graph and accessing node properties
-            - For YES, briefly explain which path or properties would be used
-            - For NO, explain why we cannot answer it with our current data structure
+            4. It can be answered by performing calculations or aggregations on node properties
+            Example: "What's the average protein content of foods in breakfast meals?" can be answered with:
+            MATCH (m:Meal)-[:CONTAINS]->(f:Food) WHERE m.type = 'breakfast' RETURN avg(f.proteins)
+            
+            Questions that CANNOT be answered:
+            
+            1. Questions requiring external knowledge not in the graph
+            Example: "What meals should I eat to lower cholesterol?" (medical advice)
+            
+            2. Questions about relationships that don't exist in our schema
+            Example: "Which exercises directly improve digestion of certain foods?" (no relationship between Exercise and Food)
+            
+            3. Questions requiring subjective judgments
+            Example: "What are the most enjoyable exercises?" (subjective criteria not in our data)
+            
+            IMPORTANT INSTRUCTION: For questions about listing or finding nodes based on their properties, remember that those ARE answerable even if they don't involve relationships.
+            
+            Your answer MUST start with:
+            - "YES" if the question can be answered with data in our graph
+            - "NO" if the question cannot be answered
+            
+            Then briefly explain how it could be answered with a Cypher-like query or why it cannot be answered.
             """
             
             feasibility_prompt = f"{system_prompt}\n\nQuestion: {question}\n\nCan this question be answered using our knowledge graph data? Answer YES or NO and explain:"
@@ -311,8 +324,8 @@ class GraphRAGBot:
             
         except Exception as e:
             print(f"Error in feasibility check: {e}")
-            return False, f"Error checking feasibility: {str(e)}"
-        
+            return False, f"Error checking feasibility: {str(e)}"   
+    
     def validate_response(self, question: str, response: str, graph_data: Dict[str, Any]) -> Tuple[bool, str]:
         """
         Step 4: Valida la risposta generata
