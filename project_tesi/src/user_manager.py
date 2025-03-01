@@ -1,10 +1,5 @@
-import logging
 from typing import Dict, List, Optional, Union, Tuple
 from datetime import datetime
-from logging import logger
-
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 class UserManager:
     def __init__(self, neo4j_connector):
@@ -338,7 +333,7 @@ class UserManager:
             return True
 
         except Exception as e:
-            self.logger.error(f"Error saving workout plan: {e}", exc_info=True)
+            print(f"Error saving workout plan: {e}", exc_info=True)
             return False
             
     def get_latest_workout_plan(self, user_id: str) -> Dict:
@@ -365,7 +360,7 @@ class UserManager:
             result = self.neo4j.query(query, {"user_id": user_id})
             
             if not result:
-                self.logger.info(f"No workout plan found for user {user_id}")
+                print(f"No workout plan found for user {user_id}")
                 return None
                 
             # Process the results to recreate the workout plan structure
@@ -424,7 +419,7 @@ class UserManager:
             return list(workout_plans.values())[0] if workout_plans else None
             
         except Exception as e:
-            self.logger.error(f"Error retrieving workout plan: {e}", exc_info=True)
+            print(f"Error retrieving workout plan: {e}", exc_info=True)
             return None
     
     def save_meal_plan(self, user_id: str, meal_plan: Dict) -> bool:
@@ -534,11 +529,11 @@ class UserManager:
                             "portion": food['portion']
                         })
             
-            logger.info(f"Successfully saved meal plan {plan_id} for user {user_id}")
+            print(f"Successfully saved meal plan {plan_id} for user {user_id}")
             return True
             
         except Exception as e:
-            logger.error(f"Error saving meal plan: {e}", exc_info=True)
+            print(f"Error saving meal plan: {e}", exc_info=True)
             return False
         
     def get_latest_meal_plan(self, user_id: str) -> Dict:
@@ -567,7 +562,7 @@ class UserManager:
             result = self.neo4j.query(query, {"user_id": user_id})
             
             if not result:
-                logger.info(f"No meal plan found for user {user_id}")
+                print(f"No meal plan found for user {user_id}")
                 return None
                 
             # Processa i risultati per ricreare la struttura del meal plan
@@ -645,5 +640,5 @@ class UserManager:
             return list(meal_plans.values())[0] if meal_plans else None
             
         except Exception as e:
-            logger.error(f"Error retrieving meal plan: {e}", exc_info=True)
+            print(f"Error retrieving meal plan: {e}", exc_info=True)
             return None
