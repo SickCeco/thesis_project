@@ -222,25 +222,25 @@ class StreamlitInterface:
     def generate_welcome_message(self):
         """Generates a welcome message with examples based on the actual knowledge graph structure"""
         welcome_message = """
-        👋 **Welcome to the GraphRAG Fitness & Nutrition Assistant!**
+👋 **Welcome to the GraphRAG Fitness & Nutrition Assistant!**
 
-            I'm here to help you with questions about fitness and nutrition based on my knowledge graph. Here are some examples of questions I can answer:
+I'm here to help you with questions about fitness and nutrition based on my knowledge graph. Here are some examples of questions I can answer:
 
-            📊 **Food & Nutrition Analysis**:
-            - "Which foods have the highest protein-to-calorie ratio?"
-            - "What foods in the database are high in protein but low in fat?"
-            - "Show me all foods in the 'Vegetable' category"
+📊 **Food & Nutrition Analysis**:
+- "Which foods have the highest protein-to-calorie ratio?"
+- "What foods in the database are high in protein but low in fat?"
+- "Show me all foods in the 'Vegetable' category"
 
-            🍽️ **Meal & Plan Information**:
-            - "What meals are included in the high-protein meal plan?"
-            - "What types of meals are available in the database?"
-            - "What's the average calorie content of breakfast meals?"
+🍽️ **Meal & Plan Information**:
+- "What meals are included in the high-protein meal plan?"
+- "What types of meals are available in the database?"
+- "What's the average calorie content of breakfast meals?"
 
-            💪 **Exercise & Workout Data**:
-            - "What exercises target the chest as primary muscle?"
-            - "List all exercises of type 'strength'"
+💪 **Exercise & Workout Data**:
+- "What exercises target the chest as primary muscle?"
+- "List all exercises of type 'strength'"
 
-            Feel free to ask me questions about the specific nutrition and fitness data in my knowledge graph!
+Feel free to ask me questions about the specific nutrition and fitness data in my knowledge graph!
         """
         return welcome_message
 
