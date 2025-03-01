@@ -242,7 +242,7 @@ class GraphRAGBot:
     def check_question_feasibility(self, question: str) -> Tuple[bool, str]:
         """
         Verifica se la domanda può essere risposta usando il knowledge graph,
-        considerando sia semplici query su proprietà che percorsi complessi.
+        includendo analisi di pattern e combinazioni.
         """
         print("\nChecking question feasibility...")
         try:
@@ -270,38 +270,54 @@ class GraphRAGBot:
             - WorkoutPlan -[HAS_WORKOUT_DAY]-> WorkoutDay
             - WorkoutDay -[HAS_EXERCISE {sets, repetitions}]-> Exercise
             
-            A question is answerable if either:
+            IMPORTANT: A question is answerable if we can construct a valid Cypher query that extracts the needed information from the graph, even if that requires analyzing patterns or combinations.
             
-            1. It can be answered with a simple MATCH query on a single node type and its properties
-            Example: "List all exercises of type 'bodyweight'" can be answered with:
+            Types of answerable questions include:
+            
+            1. Simple property queries:
+            Example: "List all exercises of type 'bodyweight'"
             MATCH (e:Exercise) WHERE e.type = 'bodyweight' RETURN e
             
-            2. It can be answered by following relationships between nodes
-            Example: "What meal plans do users with weight loss goals follow?" can be answered with:
+            2. Relationship queries:
+            Example: "What meal plans do users with weight loss goals follow?"
             MATCH (u:User)-[f:FOLLOWS]->(mp:MealPlan) WHERE u.goal = 'weight loss' RETURN mp
             
-            3. It can be answered by traversing multiple nodes and relationships
-            Example: "What foods are in meals followed by users who prefer vegetarian food?" can be answered with:
+            3. Multi-hop path queries:
+            Example: "What foods are in meals followed by users who prefer vegetarian food?"
             MATCH (u:User)-[:FOLLOWS]->(mp:MealPlan)-[:HAS_MEAL_DAY]->(md:MealDay)-[:HAS_MEAL]->(m:Meal)-[:CONTAINS]->(f:Food)
-            WHERE u.preferences CONTAINS 'vegetarian'
-            RETURN f
+            WHERE u.preferences CONTAINS 'vegetarian' RETURN f
             
-            4. It can be answered by performing calculations or aggregations on node properties
-            Example: "What's the average protein content of foods in breakfast meals?" can be answered with:
+            4. Aggregation queries:
+            Example: "What's the average protein content of foods in breakfast meals?"
             MATCH (m:Meal)-[:CONTAINS]->(f:Food) WHERE m.type = 'breakfast' RETURN avg(f.proteins)
+            
+            5. Pattern analysis and combinations:
+            Example: "What are the most common food combinations in lunch meals?"
+            MATCH (m:Meal)-[:CONTAINS]->(f1:Food), (m)-[:CONTAINS]->(f2:Food)
+            WHERE m.type = 'lunch' AND f1.foodId < f2.foodId
+            RETURN f1.name, f2.name, count(*) AS frequency
+            ORDER BY frequency DESC
+            
+            6. Complex analytical queries:
+            Example: "Which exercise and food combinations are most common in plans for weight loss?"
+            MATCH (u:User)-[:FOLLOWS]->(wp:WorkoutPlan)-[:HAS_WORKOUT_DAY]->(wd:WorkoutDay)-[:HAS_EXERCISE]->(e:Exercise),
+                    (u)-[:FOLLOWS]->(mp:MealPlan)-[:HAS_MEAL_DAY]->(md:MealDay)-[:HAS_MEAL]->(m:Meal)-[:CONTAINS]->(f:Food)
+            WHERE u.goal = 'weight loss'
+            RETURN e.name, f.name, count(*) AS frequency
+            ORDER BY frequency DESC
             
             Questions that CANNOT be answered:
             
-            1. Questions requiring external knowledge not in the graph
+            1. Questions requiring external domain knowledge not in the graph
             Example: "What meals should I eat to lower cholesterol?" (medical advice)
             
             2. Questions about relationships that don't exist in our schema
             Example: "Which exercises directly improve digestion of certain foods?" (no relationship between Exercise and Food)
             
-            3. Questions requiring subjective judgments
+            3. Questions requiring subjective judgments or ranking not based on data
             Example: "What are the most enjoyable exercises?" (subjective criteria not in our data)
             
-            IMPORTANT INSTRUCTION: For questions about listing or finding nodes based on their properties, remember that those ARE answerable even if they don't involve relationships.
+            IMPORTANT: For pattern analysis questions, as long as the data exists in the graph and can be queried, the question IS answerable, even if it requires complex aggregations or counting of co-occurrences.
             
             Your answer MUST start with:
             - "YES" if the question can be answered with data in our graph
@@ -324,8 +340,8 @@ class GraphRAGBot:
             
         except Exception as e:
             print(f"Error in feasibility check: {e}")
-            return False, f"Error checking feasibility: {str(e)}"   
-    
+            return False, f"Error checking feasibility: {str(e)}"
+        
     def validate_response(self, question: str, response: str, graph_data: Dict[str, Any]) -> Tuple[bool, str]:
         """
         Step 4: Valida la risposta generata
