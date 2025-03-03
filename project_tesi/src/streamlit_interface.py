@@ -122,18 +122,12 @@ class StreamlitInterface:
             # User profile section with styling
             st.markdown("## User Profile")
             
-            # Add user avatar and details
-            avatar_col, info_col = st.columns([1, 2])
-            
-            with avatar_col:
-                # This displays a user icon
-                st.markdown("### 👤")
-            
-            with info_col:
+            # Display username and BMI on the same line
+            if 'Weight' in st.session_state.user_data and 'Height' in st.session_state.user_data:
+                bmi = st.session_state.user_data['Weight'] / ((st.session_state.user_data['Height']/100) ** 2)
+                st.markdown(f"**{st.session_state.user_data['Username']}** | BMI: **{bmi:.1f}**")
+            else:
                 st.markdown(f"**{st.session_state.user_data['Username']}**")
-                if 'Weight' in st.session_state.user_data and 'Height' in st.session_state.user_data:
-                    bmi = st.session_state.user_data['Weight'] / ((st.session_state.user_data['Height']/100) ** 2)
-                    st.markdown(f"BMI: **{bmi:.1f}**")
             
             # Add profile navigation and logout in the user section
             if st.button("👤 Edit Profile", key="nav_Profile", 
@@ -179,7 +173,7 @@ class StreamlitInterface:
             ]
             import random
             st.info(random.choice(tips))
-    
+            
     def show_profile_page(self):
         """Display the user profile edit page."""
         if not st.session_state.authenticated:
@@ -256,9 +250,12 @@ class StreamlitInterface:
                         # Update session state with new data
                         st.session_state.user_data.update(updated_data)
                         st.success("✅ Profile updated successfully!")
+                        
+                        # Force refresh the sidebar to show updated BMI
+                        st.rerun()
                     else:
                         st.error("❌ Failed to update profile. Please try again.")
-
+                        
     def show_chatbot_page(self):
         if not st.session_state.authenticated:
             st.warning("Please login first!")
