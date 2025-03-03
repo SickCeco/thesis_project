@@ -101,56 +101,55 @@ class StreamlitInterface:
                 st.rerun()
                 return
 
-            # Page handling
+            # Page handling - removed Profile page case
             if st.session_state.current_page == "Chatbot":
                 self.show_chatbot_page()
             elif st.session_state.current_page == "Meal Plan":
                 self.show_meal_plan_page()
             elif st.session_state.current_page == "Workout Plan":
                 self.show_workout_plan_page()
-            elif st.session_state.current_page == "Profile":  
-                self.show_profile_page()
         else:
             if st.session_state.current_page == "Login":
                 self.show_login_page()
             elif st.session_state.current_page == "Register":
                 self.show_registration_page()
-                
+                        
     def show_improved_sidebar(self):
-        """Shows an improved sidebar with user info and navigation"""
+        """Shows an improved sidebar with user info, profile editing, and logout"""
         with st.sidebar:
             # User profile section with styling
             st.markdown("## User Profile")
             
-            # Add user avatar and details
+            # Add user avatar and basic info
             avatar_col, info_col = st.columns([1, 2])
             
             with avatar_col:
-                # This displays a user icon
                 st.markdown("### 👤")
             
             with info_col:
                 st.markdown(f"**{st.session_state.user_data['Username']}**")
+                # Only calculate BMI here for display purposes, not for saving
                 if 'Weight' in st.session_state.user_data and 'Height' in st.session_state.user_data:
                     bmi = st.session_state.user_data['Weight'] / ((st.session_state.user_data['Height']/100) ** 2)
                     st.markdown(f"BMI: **{bmi:.1f}**")
+            
+            # Profile editing directly in sidebar
+            with st.expander("Edit Profile", expanded=False):
+                self.show_profile_page()
             
             st.divider()
             
             # Navigation section with improved styling
             st.markdown("## Navigation")
             
-            # Navigation buttons with icons
-            # In the show_improved_sidebar method, add "Profile" to the pages dictionary
+            # Navigation buttons with icons - removed Profile from here
             pages = {
                 "Chatbot": "💬",
                 "Meal Plan": "🍽️",
-                "Workout Plan": "🏋️‍♂️",
-                "Profile": "👤" 
+                "Workout Plan": "🏋️‍♂️"
             }
             
             for page, icon in pages.items():
-                # Highlight current page
                 button_type = "primary" if st.session_state.current_page == page else "secondary"
                 if st.button(f"{icon} {page}", key=f"nav_{page}", type=button_type, use_container_width=True):
                     st.session_state.previous_page = st.session_state.current_page
@@ -159,13 +158,13 @@ class StreamlitInterface:
             
             st.divider()
             
-            # Logout section
+            # Logout moved directly under profile section
             st.markdown("## Account")
             if st.button("Logout", key="logout_button", type="secondary", use_container_width=True):
                 self.logout_user()
                 st.rerun()
             
-            # Add some health stats or tips
+            # Health tips remain
             st.divider()
             st.markdown("## Health Tip")
             tips = [
@@ -177,6 +176,7 @@ class StreamlitInterface:
             ]
             import random
             st.info(random.choice(tips))
+    
     
     def show_profile_page(self):
         """Display the user profile edit page."""
