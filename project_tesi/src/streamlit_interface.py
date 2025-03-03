@@ -89,8 +89,7 @@ class StreamlitInterface:
         st.session_state.bot_initialized = False
 
     def run(self):
-        st.markdown("<h1 style='text-align: center;'>Fitness and Nutrition Assistant</h1>", unsafe_allow_html=True)
-        
+
         if st.session_state.authenticated:
             if st.session_state.user_data and 'Username' in st.session_state.user_data:
                 # Navigation bar
@@ -507,6 +506,8 @@ Feel free to ask me questions about the specific nutrition and fitness data in m
                         st.error("❌ Failed to save meal plan. Please try again.")
 
     def show_login_page(self):
+        st.markdown("<h1 style='text-align: center;'>Fitness and Nutrition Assistant</h1>", unsafe_allow_html=True)
+        
         left_col, center_col, right_col = st.columns([0.5, 3, 0.5])
         
         with center_col:
@@ -544,6 +545,8 @@ Feel free to ask me questions about the specific nutrition and fitness data in m
                 st.session_state.registration_success = False
 
     def show_registration_page(self):
+        st.markdown("<h1 style='text-align: center;'>Fitness and Nutrition Assistant</h1>", unsafe_allow_html=True)
+        
         st.header("User Registration")
 
         # Aggiungiamo un pulsante "Torna indietro" in alto
