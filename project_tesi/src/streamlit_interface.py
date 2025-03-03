@@ -10,11 +10,9 @@ from user_manager import UserManager
 from workout_plans_manager import Goal, WorkoutPlanGraphRAG
 import streamlit as st
 
-# Configurazione condizionale della pagina in base alla pagina corrente
 if 'current_page' not in st.session_state:
     st.session_state.current_page = "Login"
 
-# Impostiamo la configurazione della pagina in base alla pagina corrente
 if st.session_state.get('current_page') in ["Login", "Register"]:
     st.set_page_config(
         page_title="Fitness and Nutrition Assistant",
@@ -93,10 +91,9 @@ class StreamlitInterface:
     def run(self):
         st.markdown("<h1 style='text-align: center;'>Fitness and Nutrition Assistant</h1>", unsafe_allow_html=True)
         
-
         if st.session_state.authenticated:
             if st.session_state.user_data and 'Username' in st.session_state.user_data:
-                # Nuova barra di navigazione orizzontale
+                # Navigation bar
                 self.show_improved_sidebar()
             else:
                 self.logger.error("Invalid user_data in session state")
@@ -104,20 +101,21 @@ class StreamlitInterface:
                 st.rerun()
                 return
 
-            # Gestione delle pagine in base alla selezione corrente
+            # Page handling
             if st.session_state.current_page == "Chatbot":
                 self.show_chatbot_page()
             elif st.session_state.current_page == "Meal Plan":
                 self.show_meal_plan_page()
             elif st.session_state.current_page == "Workout Plan":
                 self.show_workout_plan_page()
-
+            elif st.session_state.current_page == "Profile":  
+                self.show_profile_page()
         else:
             if st.session_state.current_page == "Login":
                 self.show_login_page()
             elif st.session_state.current_page == "Register":
                 self.show_registration_page()
-
+                
     def show_improved_sidebar(self):
         """Shows an improved sidebar with user info and navigation"""
         with st.sidebar:
@@ -143,10 +141,12 @@ class StreamlitInterface:
             st.markdown("## Navigation")
             
             # Navigation buttons with icons
+            # In the show_improved_sidebar method, add "Profile" to the pages dictionary
             pages = {
                 "Chatbot": "💬",
                 "Meal Plan": "🍽️",
-                "Workout Plan": "🏋️‍♂️"
+                "Workout Plan": "🏋️‍♂️",
+                "Profile": "👤" 
             }
             
             for page, icon in pages.items():
@@ -177,7 +177,86 @@ class StreamlitInterface:
             ]
             import random
             st.info(random.choice(tips))
+    
+    def show_profile_page(self):
+        """Display the user profile edit page."""
+        if not st.session_state.authenticated:
+            st.warning("Please login first!")
+            return
             
+        st.title("Edit Your Profile")
+        
+        if not st.session_state.user_data or 'UserID' not in st.session_state.user_data:
+            st.error("User data not found. Please try logging in again.")
+            return
+        
+        # Create a form with current user values as defaults
+        with st.form("edit_profile_form"):
+            # Display current values
+            user_data = st.session_state.user_data
+            
+            # Personal information
+            st.subheader("Personal Information")
+            name = st.text_input("Name", value=user_data.get('Name', ''))
+            age = st.number_input("Age", min_value=18, max_value=100, value=int(user_data.get('Age', 30)))
+            sex = st.selectbox("Sex", ["Male", "Female", "Other"], index=["Male", "Female", "Other"].index(user_data.get('Sex', 'Other')))
+            
+            # Body measurements
+            st.subheader("Body Measurements")
+            weight = st.number_input("Weight (kg)", min_value=40.0, max_value=200.0, value=float(user_data.get('Weight', 70.0)))
+            height = st.number_input("Height (cm)", min_value=130.0, max_value=250.0, value=float(user_data.get('Height', 170.0)))
+            
+            # Fitness preferences
+            st.subheader("Fitness Preferences")
+            activity_level = st.select_slider(
+                "Activity Level",
+                options=["Sedentary", "Light", "Moderate", "Active", "Very Active"],
+                value=user_data.get('ActivityLevel', 'Moderate')
+            )
+            
+            goal = st.selectbox(
+                "Goal",
+                ["Weight Loss", "Weight Gain", "Maintenance"],
+                index=["Weight Loss", "Weight Gain", "Maintenance"].index(user_data.get('Goal', 'Maintenance'))
+            )
+            
+            preferences = st.multiselect(
+                "Dietary Preferences",
+                ["Omnivore", "Vegetarian", "Gluten-Free"],
+                default=user_data.get('Preference', [])
+            )
+            
+            # Submit button
+            submitted = st.form_submit_button("Update Profile", type="primary")
+            
+            if submitted:
+                # Calculate new daily calories based on updated parameters
+                daily_calories = self.user_manager.calculate_daily_calories(weight, height, age, sex, activity_level)
+                
+                # Prepare updated user data
+                updated_data = {
+                    "UserID": user_data['UserID'],
+                    "Name": name,
+                    "Age": age,
+                    "Sex": sex,
+                    "Weight": weight,
+                    "Height": height,
+                    "ActivityLevel": activity_level,
+                    "Goal": goal,
+                    "Preference": preferences,
+                    "Daily_calories": daily_calories
+                }
+                
+                # Update user data in database
+                with st.spinner("Updating your profile..."):
+                    success = self.user_manager.update_user_node(updated_data)
+                    if success:
+                        # Update session state with new data
+                        st.session_state.user_data.update(updated_data)
+                        st.success("✅ Profile updated successfully!")
+                    else:
+                        st.error("❌ Failed to update profile. Please try again.")
+
     def show_chatbot_page(self):
         if not st.session_state.authenticated:
             st.warning("Please login first!")

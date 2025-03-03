@@ -642,3 +642,48 @@ class UserManager:
         except Exception as e:
             print(f"Error retrieving meal plan: {e}", exc_info=True)
             return None
+    
+    def update_user_node(self, user_data):
+        """Update user parameters in the knowledge graph.
+        
+        Args:
+            user_data (dict): Updated user data including UserID
+            
+        Returns:
+            bool: True if update was successful, False otherwise
+        """
+        try:
+            # Build Cypher query to update user node
+            query = """
+            MATCH (u:User {userId: $user_id})
+            SET u.name = $name,
+                u.age = $age,
+                u.weight = $weight,
+                u.height = $height,
+                u.activityLevel = $activity_level,
+                u.goal = $goal,
+                u.preferences = $preferences
+            RETURN u
+            """
+            
+            # Parameters for the query
+            params = {
+                "user_id": user_data["UserID"],
+                "name": user_data["Name"],
+                "age": user_data["Age"],
+                "weight": user_data["Weight"],
+                "height": user_data["Height"],
+                "activity_level": user_data["ActivityLevel"],
+                "goal": user_data["Goal"],
+                "preferences": user_data["Preference"]
+            }
+            
+            # Execute query
+            result = self.neo4j.execute_query(query, params)
+            
+            # Check if update was successful
+            return result is not None and len(result) > 0
+            
+        except Exception as e:
+            print(f"Error updating user node: {e}")
+            return False
